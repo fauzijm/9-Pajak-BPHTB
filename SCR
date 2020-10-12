@@ -1,0 +1,38 @@
+For : BPHTB dan 9 Pajak
+1.	(9 Pajak & BPHTB) Tertera user login sebagai penginput, verifikasi, bendahara (By Bank Lampung) (munculkan nama user Input Pelaporan, Verifikasi, Persetujuan dan pembayaran karna beda orang dan beda Login)
+Tester : buat 4 user test mulai dr input verifikasi, persetujuan dan pembayaran
+2.	(9 Pajak & BPHTB) Berikan batas expired untuk setiap kode bayar selama 1 bulan (data BPHTB table ssb sdh ada nama field nya “expired_date” dan sdh terisi 1 bulan dr tgl input, coba di cek apakah fungsi ini sdh bisa jalan) (belum fungsi)(sudah dibuat fungsinya untuk 9pajak)
+3.	(9 Pajak) Tambahkan tab di samping cetak sspd untuk kode bayar expired
+ 
+4.	(9 Pajak & BPHTB) Kode bayar expired bisa dipulihkan untuk dilakukan payment (hanya user tertentu yang dapat memulihkan) jadi normal nya klo sdh expired tdk bisa dilakukan payment pada menu pembayaran, untuk bisa lakukan pembayaran harus dengan user khusus super admin
+5.	(BPHTB)  di menu pembayaran tambahkan Tanggal Bayar dan bisa di pilih sesuai kemauan
+6.	(9 Pajak & BPHTB) Pelaporan yang sudah di bayar bisa di edit tgl bayar nya (field yang berubah expired_date, payment_paid, payment_offline_paid) (di pembayaran) (bphtb pembayaran -> buat menu tab disebelah konfigurasi)
+	9pajak di (status bayar)
+	bphtb di (pelaporan)
+7.	(BPHTB) laporan rekapitulasi buat total njop, njop/meter, bphtb, tanggal bayar
+8.	(9 Pajak & BPHTB) ganti logo, ganti tittle AlfaTax | BPHTB
+9.	(9 Pajak) login wp, bisa cetak sspd saja, hidden dashboard grafik pencapaian
+10.	(BPHTB) menu pelaporan (tab disetujui, kolom tanggal diubah jadi tanggal bayar)
+11.	(9 Pajak & BPHTB) tambahkan table tgl bayar, di status bayar (9pajak), pelaporan (bphtb))
+12.	(BPHTB) laporan rekapitulasi (bpthb) pencariannya masih berdasarkan tgl verifikasi diubah berdasarkan tgl bayar
+13.	(9 Pajak) pencarian status bayar (9pajak) tidak berdasarkan tgl bayar awal dan tgl bayar akhir disesuaikan
+14.	(BPHTB) input laporan baru tidak bisa jika nop ditolak di menu persetujuan (bphtb)
+15.	(BPHTB) menu Status Bayar Tab Sudah Bayar tambahkan Kolom “Kode Bayar” 
+16.	(9 Pajak) Registrasi User Wajib Pajak Baru menu nya bisa di akses tanpa login dulu seperti “Registrasi User Notaris Baru” pada BPHTB, setelah user pajak isi data dan password lalu klik simpan maka data tidak langsung aktif tapi masuk ke Tab “Wajib Pajak Menunggu Konfirmasi” lalu BPPRD akan melakukan verifikasi pada Tab tersebut barulah User WP yg dibuat td aktif dan bisa digunakan untuk melakukan pelaporan
+17.	(9 Pajak & BPHTB) masuk ke menu User Profile error saat masuk muncul tulisan error lalu langsung otomatis ke halaman home
+       
+18.	(9 Pajak) menu management >> User, ada pesan error
+ 
+ 
+19.	(9 Pajak) masuk ke Management >> User, pilih salah satu user klik Edit lalu ubah nama atau password atau 22 nya muncul error tapi data berhasil diubah dan ternyata berefek ke Point 20
+ 
+
+ 
+
+ 
+20.	(9 Pajak) Login menggunakan user WP yg sdh di edit di Point sebelumnya saat klik Menu Pelaporan Pajak, Menu Pajak nya tidak Muncul
+ 
+21.	(BPHTB) saat klik Cek NOP jika data ada data muncul tp pada bagian luas tanah dan bangunan belum otomatis menghitung total nya
+ 
+22.	?
+
